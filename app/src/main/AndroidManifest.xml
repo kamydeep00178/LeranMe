@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.example.learnme">
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
             android:allowBackup="true"
@@ -11,14 +11,18 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.LearnMe">
+        <activity android:name=".ui.WelcomeActivity"
+                  android:theme="@style/AppTheme">
+
+        </activity>
         <activity
                 android:name=".HomeActivity"
                 android:label="@string/title_activity_home"
                 android:theme="@style/Theme.LearnMe.NoActionBar">
         </activity>
         <activity
-                android:theme="@style/AppTheme"
-                android:name=".DetailActivity">
+                android:name=".DetailActivity"
+                android:theme="@style/AppTheme">
         </activity>
         <activity
                 android:name=".SplashActivity"

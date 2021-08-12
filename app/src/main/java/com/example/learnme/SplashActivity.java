@@ -5,10 +5,11 @@ import android.os.Handler;
 import android.view.WindowManager;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import com.example.learnme.ui.WelcomeActivity;
 
 public class SplashActivity extends AppCompatActivity {
 
-    private static int SPLASH_SCREEN_TIME_OUT=2000;
+    private static int SPLASH_SCREEN_TIME_OUT=4000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +23,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 Intent i=new Intent(SplashActivity.this,
-                        DetailActivity.class);
+                        WelcomeActivity.class);
                 //Intent is used to switch from one activity to another.
 
                 startActivity(i);

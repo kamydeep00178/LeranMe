@@ -99,9 +99,9 @@ public class HomeFragment extends Fragment {
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 
-            Document doc = dBuilder.parse(new InputSource(url.openStream()));
+          //  Document doc = dBuilder.parse(new InputSource(url.openStream()));
 
-           // Document doc = dBuilder.parse(is);
+            Document doc = dBuilder.parse(is);
 
             Element element=doc.getDocumentElement();
             element.normalize();
