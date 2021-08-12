@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>
+            <![CDATA[BBC News - US & Canada]]>
+        </title>
+        <description>
+            <![CDATA[BBC News - US & Canada]]>
+        </description>
+        <link>https://www.bbc.co.uk/news/</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - US &amp; Canada</title>
+            <link>https://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Thu, 12 Aug 2021 07:41:02 GMT</lastBuildDate>
+        <copyright>
+            <![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]>
+        </copyright>
+        <language>
+            <![CDATA[en-gb]]>
+        </language>
+        <ttl>15</ttl>
+        <item>
+            <title>
+                <![CDATA[Michael Spavor: Canadian jailed for 11 years in China on spying charges]]>
+            </title>
+            <description>
+                <![CDATA[His sentencing is the latest development in a diplomatic spat between the two countries.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-asia-china-58168587</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-china-58168587</guid>
+            <pubDate>Wed, 11 Aug 2021 06:03:13 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Afghanistan war: Biden says he does not regret troop withdrawal]]>
+            </title>
+            <description>
+                <![CDATA[The US president urges Afghan leaders to fight for their nation, as more cities fall to the Taliban.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-asia-58167408</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-58167408</guid>
+            <pubDate>Wed, 11 Aug 2021 08:27:30 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[How North American cities are bracing for more heatwaves]]>
+            </title>
+            <description>
+                <![CDATA[Local governments are getting creative when it comes to tackling frequent and extreme heat.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58015089</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58015089</guid>
+            <pubDate>Wed, 11 Aug 2021 23:13:59 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Kathy Hochul: New York's next governor influenced by Irish roots]]>
+            </title>
+            <description>
+                <![CDATA[Kathy Hochul's grandparents were from Ireland and had a "profound impact" on her political outlook.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-europe-58174022</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-58174022</guid>
+            <pubDate>Wed, 11 Aug 2021 13:59:08 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Jeopardy! quiz show selects two permanent hosts]]>
+            </title>
+            <description>
+                <![CDATA[TV producer Mike Richards and Big Bang Theory actress Mayim Bialik will share presenting duties.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58181680</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58181680</guid>
+            <pubDate>Wed, 11 Aug 2021 20:07:18 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Wildfires: How are they linked to climate change?]]>
+            </title>
+            <description>
+                <![CDATA[A series of major wildfires across the world has hit the headlines - how do they compare to previous years?]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/58159451</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/58159451</guid>
+            <pubDate>Wed, 11 Aug 2021 15:38:30 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Tropical Storm Fred: Sixth Atlantic storm hints at above-average hurricane season]]>
+            </title>
+            <description>
+                <![CDATA[Meteorologists have named the sixth Atlantic storm of 2021, hinting at an above-average season.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/science-environment-58160257</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/science-environment-58160257</guid>
+            <pubDate>Wed, 11 Aug 2021 07:21:37 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Florida governor says no salaries for school leaders requiring masks]]>
+            </title>
+            <description>
+                <![CDATA[As cases rise across the US, Florida's governor argues school mask rules infringe on parent rights.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58162329</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58162329</guid>
+            <pubDate>Tue, 10 Aug 2021 23:03:33 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Prince Andrew can't ignore courts - accuser's lawyer]]>
+            </title>
+            <description>
+                <![CDATA[Virginia Giuffre's lawyer says litigation is the only way to establish the Duke of York's evidence.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-58167469</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-58167469</guid>
+            <pubDate>Wed, 11 Aug 2021 11:26:46 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[US job vacancies hit a record 10.1 million]]>
+            </title>
+            <description>
+                <![CDATA[It comes amid reports the country is still facing a labour shortage in sectors such as labour and hospitality.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/business-58154046</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-58154046</guid>
+            <pubDate>Mon, 09 Aug 2021 22:31:09 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Friends narrowly escape flooding lift]]>
+            </title>
+            <description>
+                <![CDATA[Three residents were caught in a storm surge in Omaha, Nebraska, and recorded their ordeal.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58154056</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58154056</guid>
+            <pubDate>Mon, 09 Aug 2021 21:50:49 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Kathy Hochul: Who is New York's first female governor?]]>
+            </title>
+            <description>
+                <![CDATA[The history-making Democrat will take the role after Andrew Cuomo resigned over harassment claims.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58167825</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58167825</guid>
+            <pubDate>Wed, 11 Aug 2021 21:55:25 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Biden's unlikely plan to use roads to fight racism]]>
+            </title>
+            <description>
+                <![CDATA[An infrastructure package that seeks to address inequality gets a mixed reception on the ground.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58106414</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58106414</guid>
+            <pubDate>Mon, 09 Aug 2021 23:17:49 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Covid: Canada opens its border to vaccinated Americans]]>
+            </title>
+            <description>
+                <![CDATA[We asked Canadians how they feel about the move, which lifts a pandemic-long restriction.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58154057</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58154057</guid>
+            <pubDate>Tue, 10 Aug 2021 00:50:03 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Infrastructure bill: $1tn for clean energy, internet, trains and more]]>
+            </title>
+            <description>
+                <![CDATA[The $1tn bill takes aim at issues from buckling bridges to global warming and remote working.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58152467</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58152467</guid>
+            <pubDate>Tue, 10 Aug 2021 15:53:18 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Fenty Beauty: How make-up helped Rihanna become a billionaire]]>
+            </title>
+            <description>
+                <![CDATA[Rihanna makes more money from her make-up than from her music and acting work.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/newsbeat-58084543</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/newsbeat-58084543</guid>
+            <pubDate>Wed, 11 Aug 2021 00:19:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Olympic medals: An alternative table - with US 15th]]>
+            </title>
+            <description>
+                <![CDATA[How would the medals table look if population and wealth were taken into account?]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58143550</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58143550</guid>
+            <pubDate>Tue, 10 Aug 2021 00:21:18 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Abba Kyari: The Nigerian super sleuth wanted in the US]]>
+            </title>
+            <description>
+                <![CDATA[Highly decorated policeman Abba Kyari's reputation is under scrutiny over alleged fraud.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-africa-58079504</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-58079504</guid>
+            <pubDate>Sat, 07 Aug 2021 23:07:03 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Mayflower 400 years: How many people are related to the Mayflower pilgrims?]]>
+            </title>
+            <description>
+                <![CDATA[For some, the17th century "pilgrim fathers" are also real-life ancestors. But for how many?]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57698818</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57698818</guid>
+            <pubDate>Fri, 06 Aug 2021 23:15:22 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Ryan Reynolds: Why Free Guy is more than a 'video game movie']]>
+            </title>
+            <description>
+                <![CDATA[The Canadian actor's latest film sees him play a different kind of "naïve and innocent" character.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-58061823</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-58061823</guid>
+            <pubDate>Fri, 06 Aug 2021 23:05:19 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[US expands citizenship for children born abroad in win for same-sex couples]]>
+            </title>
+            <description>
+                <![CDATA[Children born through surrogacy or IVF can now qualify, even without being related to the US parent.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58123371</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58123371</guid>
+            <pubDate>Fri, 06 Aug 2021 20:18:44 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Tucker Carlson: What the Fox News host is doing in Hungary]]>
+            </title>
+            <description>
+                <![CDATA[The controversial news host is the latest high-profile ally of Hungary's embattled prime minister.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-europe-58104200</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-58104200</guid>
+            <pubDate>Thu, 05 Aug 2021 18:52:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Covid crashed Obama's party - should Delta change your plans?]]>
+            </title>
+            <description>
+                <![CDATA[As Covid changes Obama's birthday plans we ask experts what the virus surge means for your summer.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58080853</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58080853</guid>
+            <pubDate>Wed, 04 Aug 2021 19:01:05 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Andrew Cuomo: Why is the NY Governor under pressure to resign?]]>
+            </title>
+            <description>
+                <![CDATA[Democrats, including President Biden, have called for the New York governor to go.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58092655</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58092655</guid>
+            <pubDate>Fri, 06 Aug 2021 18:32:39 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Simone Biles 'shows how much gymnastics has changed']]>
+            </title>
+            <description>
+                <![CDATA[Biles' withdrawal shows how attitudes have changed, says former USA gymnast Dominique Moceanu.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58043512</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58043512</guid>
+            <pubDate>Wed, 04 Aug 2021 16:18:16 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Covid third wave: Americans 'scared and angry' as pandemic worsens]]>
+            </title>
+            <description>
+                <![CDATA[As the Delta variant causes a rethink about risk, Americans are battling to keep a feeling of normalcy.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58014719</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58014719</guid>
+            <pubDate>Mon, 02 Aug 2021 22:44:08 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Bennifer 2.0: How Jennifer Lopez and Ben Affleck got us talking again]]>
+            </title>
+            <description>
+                <![CDATA[How a viral photo of Jennifer Lopez and Ben Affleck exposed the internet's lust for nostalgia.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-58030649</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-58030649</guid>
+            <pubDate>Mon, 02 Aug 2021 23:24:46 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Are America's unvaccinated changing their minds?]]>
+            </title>
+            <description>
+                <![CDATA[Timothy lives in a county where only a third are fully jabbed - he says he regrets his choice now.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58017289</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58017289</guid>
+            <pubDate>Fri, 30 Jul 2021 00:52:08 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Vauhxx Booker: Black man condemns charges over alleged race attack]]>
+            </title>
+            <description>
+                <![CDATA[Vauhxx Booker, who alleges two white men threatened to lynch him, is himself charged with assault.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58078503</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58078503</guid>
+            <pubDate>Tue, 03 Aug 2021 18:51:20 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Why black TikTok creators have gone on strike]]>
+            </title>
+            <description>
+                <![CDATA[Backlash for "cultural appropriation" on the video-making app may mean no viral dances for a while.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57841055</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57841055</guid>
+            <pubDate>Thu, 15 Jul 2021 00:13:49 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[How US police training compares with the rest of the world]]>
+            </title>
+            <description>
+                <![CDATA[Amid calls to improve training in the US, we examine how it compares with other developed countries.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-56834733</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-56834733</guid>
+            <pubDate>Mon, 17 May 2021 23:39:10 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Global heating: Study shows impact of 'climate racism' in US]]>
+            </title>
+            <description>
+                <![CDATA[Black people in the US are subject to double the level of heat stress in cities than whites.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/science-environment-57235904</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/science-environment-57235904</guid>
+            <pubDate>Tue, 25 May 2021 15:07:42 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Growing hate crime against Asian Americans]]>
+            </title>
+            <description>
+                <![CDATA[The BBC's Michelle Fleury looks at the problem of hate crime directed at Asian Americans in the US.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/business-57287364</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-57287364</guid>
+            <pubDate>Sun, 30 May 2021 23:06:14 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[George Floyd death: How do I talk to my son about race?]]>
+            </title>
+            <description>
+                <![CDATA[A year on from the death of George Floyd, BBC presenter Eddie Nestor examines his role as a father.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57205016</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57205016</guid>
+            <pubDate>Sun, 23 May 2021 23:08:58 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[The couple inspired by Tulsa’s black entrepreneurs]]>
+            </title>
+            <description>
+                <![CDATA[Obum and his wife Faith moved to Tulsa in 2019, inspired by the legacy of 'Black Wall Street'.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57309938</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57309938</guid>
+            <pubDate>Mon, 31 May 2021 23:19:48 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Tulsa Massacre: 'Our country may forget this history, but I cannot']]>
+            </title>
+            <description>
+                <![CDATA[Viola Fletcher, a survivor of the 1921 Tulsa Massacre, calls for justice 100 years on.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57285783</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57285783</guid>
+            <pubDate>Sat, 29 May 2021 09:35:46 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Tulsa massacre: The search for victims, 100 years on]]>
+            </title>
+            <description>
+                <![CDATA[Decades after white mobs razed an affluent black neighbourhood the search for bodies goes on.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57244863</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57244863</guid>
+            <pubDate>Wed, 26 May 2021 23:56:22 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[George Floyd death: How US police are trying to win back trust]]>
+            </title>
+            <description>
+                <![CDATA[A year after George Floyd's death, it's not just civilians who'll be reflecting on what happened.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57205015</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57205015</guid>
+            <pubDate>Fri, 21 May 2021 20:56:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Covid: Biden to continue Trump's Title 42 migrant expulsions]]>
+            </title>
+            <description>
+                <![CDATA[The White House plans to continue the controversial Title 42 policy to help combat Covid-19.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58077311</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58077311</guid>
+            <pubDate>Tue, 03 Aug 2021 18:23:35 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Immigration: Is US-Mexico border seeing a surge in migrants?]]>
+            </title>
+            <description>
+                <![CDATA[Donald Trump says migrants are crossing the border like the US "has never seen". We've checked the numbers.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/57656959</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/57656959</guid>
+            <pubDate>Thu, 01 Jul 2021 00:46:03 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA['Our first day of freedom on American soil']]>
+            </title>
+            <description>
+                <![CDATA[Adrian Meza and his family from Nicaragua have just been released from detention by US border officials.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57022918</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57022918</guid>
+            <pubDate>Fri, 07 May 2021 23:18:36 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA['Heartbreaking' conditions in US migrant child camp]]>
+            </title>
+            <description>
+                <![CDATA[An investigation by the BBC has uncovered alarming conditions at a child migrant camp in Texas.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57561760</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57561760</guid>
+            <pubDate>Wed, 23 Jun 2021 00:51:28 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[US migrant camp 'kids feel like they're in prison']]>
+            </title>
+            <description>
+                <![CDATA[More than 2,000 migrant children are being detained in an overcrowded camp in Texas ridden with disease.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57576306</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57576306</guid>
+            <pubDate>Wed, 23 Jun 2021 01:17:39 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Mexico: Risking everything for an American dream]]>
+            </title>
+            <description>
+                <![CDATA[Thousands of migrants from Central America are making an arduous journey to the US border.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-56432363</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-56432363</guid>
+            <pubDate>Wed, 17 Mar 2021 23:04:07 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Children speak of neglect in US asylum camps]]>
+            </title>
+            <description>
+                <![CDATA[The BBC has uncovered allegations of cold temperatures, sickness, lice and abuse, through a series of interviews with children and staff at US detention camps for children.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57149721</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57149721</guid>
+            <pubDate>Sun, 23 May 2021 23:03:09 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Colombia: Migrants risking it all to cross Darien Gap]]>
+            </title>
+            <description>
+                <![CDATA[It takes up to 20 days, and can be deadly – but everyday hundreds try to cross the border between Panama and Colombia.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-56544700</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-56544700</guid>
+            <pubDate>Sun, 28 Mar 2021 23:02:19 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Guatemala: Suffocated youth unafraid of a deadly journey]]>
+            </title>
+            <description>
+                <![CDATA[Tougher policies and deaths on the road are unlikely to stop Guatemalans from trying to reach the US.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-56260568</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-56260568</guid>
+            <pubDate>Fri, 26 Mar 2021 00:21:32 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA['Can you help me?' Boy found alone at the border]]>
+            </title>
+            <description>
+                <![CDATA[A 10-year-old from Nicaragua woke up to find he had been abandoned by his group.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-56670094</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-56670094</guid>
+            <pubDate>Wed, 07 Apr 2021 19:47:48 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Kamala Harris visits US border amid migrant crisis]]>
+            </title>
+            <description>
+                <![CDATA[The US vice-president appeals for an end to "finger-pointing" amid a bipartisan backlash.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57619601</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57619601</guid>
+            <pubDate>Sat, 26 Jun 2021 01:29:18 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[What is Biden doing differently at US border?]]>
+            </title>
+            <description>
+                <![CDATA[Democrat Joe Biden has promised to undo many of Donald Trump's immigration policies.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-56255613</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-56255613</guid>
+            <pubDate>Fri, 14 May 2021 16:26:03 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Big rise in numbers of migrant children on Mexico-US border]]>
+            </title>
+            <description>
+                <![CDATA[The increase from 380 to nearly 3,500 has overwhelmed local facilities in Mexico, the UN warns.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-56810672</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-56810672</guid>
+            <pubDate>Mon, 19 Apr 2021 22:39:10 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Child migrants: The challenges facing Biden at the US-Mexico border]]>
+            </title>
+            <description>
+                <![CDATA[A surge in migrants arriving at the US-Mexico border tests the administration's immigration promises.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-56514320</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-56514320</guid>
+            <pubDate>Wed, 24 Mar 2021 23:01:19 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA['Hurt' Andrew Cuomo addresses daughters as he quits]]>
+            </title>
+            <description>
+                <![CDATA[The New York governor steps down amid allegations he sexually harassed multiple women.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58167628</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58167628</guid>
+            <pubDate>Tue, 10 Aug 2021 22:05:46 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[New York Governor Andrew Cuomo resigns in wake of harassment report]]>
+            </title>
+            <description>
+                <![CDATA[The Democrat says he will step aside after an inquiry found he sexually harassed multiple women.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58164719</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58164719</guid>
+            <pubDate>Tue, 10 Aug 2021 22:13:13 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Andrew Cuomo: The allegations and his 'I kiss people' defence]]>
+            </title>
+            <description>
+                <![CDATA[The NY governor shows photos of him kissing and hugging people as he denies sexual misconduct claims.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58077312</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58077312</guid>
+            <pubDate>Tue, 03 Aug 2021 22:37:20 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[CDC director Rochelle Walensky says vaccines worked in Provincetown]]>
+            </title>
+            <description>
+                <![CDATA[Rochelle Walensky says vaccines protected Provincetown amid an "immense amount of exposure".]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-58065854</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-58065854</guid>
+            <pubDate>Mon, 02 Aug 2021 23:39:57 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Key moments from first hearing of Capitol riot inquiry]]>
+            </title>
+            <description>
+                <![CDATA[Police officers gave emotional testimony about their struggles during the riot to US lawmakers.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57992997</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57992997</guid>
+            <pubDate>Tue, 27 Jul 2021 23:11:21 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Canada residential schools: 'Six years old, I was imprisoned here']]>
+            </title>
+            <description>
+                <![CDATA[As searches for unmarked graves continue, survivors reflect on a dark legacy of residential schools.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57840797</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57840797</guid>
+            <pubDate>Thu, 15 Jul 2021 23:25:14 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Capitol Hill police officer in tears during testimony]]>
+            </title>
+            <description>
+                <![CDATA[Officer Gonell gave an emotional statement during the first day of the US Capitol riot inquiry.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57989607</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57989607</guid>
+            <pubDate>Tue, 27 Jul 2021 14:41:05 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Wildfires spread from California to Nevada]]>
+            </title>
+            <description>
+                <![CDATA[Fire crews are battling extreme temperatures to control wildfires in California and Nevada.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57961767</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57961767</guid>
+            <pubDate>Sun, 25 Jul 2021 10:58:45 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Hemingway 'lookalike' chosen in Florida contest]]>
+            </title>
+            <description>
+                <![CDATA[A 63-year-old won the Key West, Florida contest for his likeness to the award-winning author.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57978084</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57978084</guid>
+            <pubDate>Mon, 26 Jul 2021 20:46:38 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[US fires: Inside a US fire truck driving through a wildfire]]>
+            </title>
+            <description>
+                <![CDATA[As burning ash pelts their vehicle, video shows firefighters in California drive through the flames.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57943338</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57943338</guid>
+            <pubDate>Fri, 23 Jul 2021 11:13:24 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Moment New York mum saves five-year-old from kidnap]]>
+            </title>
+            <description>
+                <![CDATA[The mother pulled her son from a car after he was taken from her in broad daylight in the New York City.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57877269</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57877269</guid>
+            <pubDate>Sun, 18 Jul 2021 00:19:43 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Powerful fire tornado in California is latest extreme weather sign]]>
+            </title>
+            <description>
+                <![CDATA[The vortex of smoke and flame is one of the latest signs of extreme weather threatening the US West.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57785882</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57785882</guid>
+            <pubDate>Fri, 09 Jul 2021 18:43:02 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Miami building collapse: 'People went to sleep, and then they died']]>
+            </title>
+            <description>
+                <![CDATA[Both the mother and grandmother of Pablo Rodríguez were in the building when it fell. Now, he wants answers.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57674422</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57674422</guid>
+            <pubDate>Wed, 30 Jun 2021 23:34:38 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[The Yankees' 70-year-old bat girl]]>
+            </title>
+            <description>
+                <![CDATA[Decades after she was told girls couldn't do the job, she got a chance to live her childhood dream.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57660503</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57660503</guid>
+            <pubDate>Tue, 29 Jun 2021 23:31:28 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Los Angeles fireworks explosion: Truck goes up in flames as police seize fireworks]]>
+            </title>
+            <description>
+                <![CDATA[A truck filled with 2,000kg of fireworks goes up in flames, injuring at least 17 people in Los Angeles.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57682375</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57682375</guid>
+            <pubDate>Thu, 01 Jul 2021 11:43:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Katty Kay: How 100 days turned into five years of fun]]>
+            </title>
+            <description>
+                <![CDATA[Katty Kay leaves the BBC after nearly three decades of service, including five years on Beyond 100 Days.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-57598135</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-57598135</guid>
+            <pubDate>Fri, 25 Jun 2021 16:04:30 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA['It's the craziest thing I ever heard in my life']]>
+            </title>
+            <description>
+                <![CDATA[This video was sent by one of the first eyewitnesses on the scene of the Miami building collapse.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-57594635</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-57594635</guid>
+            <pubDate>Thu, 24 Jun 2021 12:15:41 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Miami building collapse: 'I'm not losing my hope']]>
+            </title>
+            <description>
+                <![CDATA[As search and rescue efforts continue, friends and family desperately await signs from the missing.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57616675</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57616675</guid>
+            <pubDate>Fri, 25 Jun 2021 18:29:36 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Katty Kay: 'It's been a privilege to sit in this chair']]>
+            </title>
+            <description>
+                <![CDATA[Legendary anchor Katty Kay signs off from the BBC for the final time.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57606218</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57606218</guid>
+            <pubDate>Thu, 24 Jun 2021 23:57:27 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Why US millennials are quitting big cities]]>
+            </title>
+            <description>
+                <![CDATA[Remote workers are freer than ever to relocate, especially when smaller cities dangle incentives.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57516592</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57516592</guid>
+            <pubDate>Thu, 17 Jun 2021 22:24:19 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Runaway cows escape California meatpacking plant]]>
+            </title>
+            <description>
+                <![CDATA[About 40 cows made a run for it and wandered through the town of Pico Rivera.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57589075</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57589075</guid>
+            <pubDate>Wed, 23 Jun 2021 17:56:22 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Biden: Insurrectionists 'need nukes' to take on US government]]>
+            </title>
+            <description>
+                <![CDATA[The president says rebels would need more than guns to take on the nuclear-armed US government.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57590483</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57590483</guid>
+            <pubDate>Thu, 24 Jun 2021 00:47:38 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Nancy Pelosi: 'Sanctity of the vote is very much in peril']]>
+            </title>
+            <description>
+                <![CDATA[The House speaker tells the BBC that American democracy is in peril if voting rights reform fails.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57576246</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57576246</guid>
+            <pubDate>Tue, 22 Jun 2021 22:15:06 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[New York mayoral election: What voters want from a new mayor]]>
+            </title>
+            <description>
+                <![CDATA[Learn what's at stake as voters head to the polls to choose a new leader for New York City.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-57560500</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-57560500</guid>
+            <pubDate>Tue, 22 Jun 2021 01:08:29 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Canada 'Sixties Scoop': Indigenous survivors map out their stories]]>
+            </title>
+            <description>
+                <![CDATA[Canada's "Sixties Scoop" saw thousands of indigenous children forcibly removed from their families.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-55269251</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-55269251</guid>
+            <pubDate>Mon, 14 Dec 2020 00:05:26 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[New Christmas campaign for Canadians held in China]]>
+            </title>
+            <description>
+                <![CDATA[The campaign is based on efforts around a similar case involving a British journalist fifty years ago.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-55249770</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-55249770</guid>
+            <pubDate>Thu, 10 Dec 2020 01:39:37 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[New Brunswick outbreak: How a smalltown doctor became a Covid pariah]]>
+            </title>
+            <description>
+                <![CDATA[After being labelled "patient zero", a small-town physician in Canada was shunned.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-54686672</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-54686672</guid>
+            <pubDate>Wed, 25 Nov 2020 01:23:46 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
