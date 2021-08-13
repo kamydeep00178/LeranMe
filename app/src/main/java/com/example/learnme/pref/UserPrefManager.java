@@ -1,8 +1,8 @@
-package com.example.learnme;
+package com.example.learnme.pref;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-
+/* Shared Perf for Store User Name */
 public class UserPrefManager {
 
     SharedPreferences pref;

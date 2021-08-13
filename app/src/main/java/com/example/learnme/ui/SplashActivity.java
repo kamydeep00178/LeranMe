@@ -1,15 +1,16 @@
-package com.example.learnme;
+package com.example.learnme.ui;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.view.WindowManager;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import com.example.learnme.ui.WelcomeActivity;
+import com.example.learnme.R;
 
 public class SplashActivity extends AppCompatActivity {
 
-    private static int SPLASH_SCREEN_TIME_OUT=4000;
+    // Splash Screen Time
+    private static final int SPLASH_SCREEN_TIME_OUT=2000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

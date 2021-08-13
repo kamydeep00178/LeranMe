@@ -1,10 +1,18 @@
-package com.example.learnme;
+package com.example.learnme.ui;
 
+import android.content.DialogInterface;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
 import android.widget.TextView;
-import com.google.android.material.snackbar.Snackbar;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.widget.Toolbar;
+import com.example.learnme.BuildConfig;
+import com.example.learnme.R;
+import com.example.learnme.pref.UserPrefManager;
 import com.google.android.material.navigation.NavigationView;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -31,14 +39,30 @@ public class HomeActivity extends AppCompatActivity {
         prefManager = new UserPrefManager(this);
 
 
-
-       /* binding.appBarHome.fab.setOnClickListener(new View.OnClickListener() {
+        // Show the alert about info
+        binding.appBarHome.toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public boolean onMenuItemClick(MenuItem item) {
+                if(item.getItemId()== R.id.action_settings)
+                {
+                    AlertDialog.Builder builder1 = new AlertDialog.Builder(HomeActivity.this);
+                    builder1.setMessage("This Show the Latest News Feed List ");
+                    builder1.setCancelable(true);
+
+                    builder1.setPositiveButton(
+                            "Ok",
+                            new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    dialog.cancel();
+                                }
+                            });
+
+                    AlertDialog alert11 = builder1.create();
+                    alert11.show();
+                }
+                return false;
             }
-        });*/
+        });
 
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
@@ -46,8 +70,11 @@ public class HomeActivity extends AppCompatActivity {
         // menu should be considered as top level destinations.
 
         View headerView = navigationView.getHeaderView(0);
-        TextView navUsername = (TextView) headerView.findViewById(R.id.textViewName);
-        navUsername.setText(prefManager.getUserName());
+        TextView navUsername = headerView.findViewById(R.id.textViewName);
+        String versionName = BuildConfig.VERSION_NAME;
+        navUsername.setText(prefManager.getUserName()+"\n"+"Version:"+versionName);
+
+
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_gallery)
                 .setDrawerLayout(drawer)

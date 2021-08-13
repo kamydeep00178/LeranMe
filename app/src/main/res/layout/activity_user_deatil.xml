@@ -6,15 +6,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
-        tools:context=".DetailActivity">
+        tools:context=".ui.UserDetailActivity">
 
 
     <TextView
             android:id="@+id/title_Name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/title_name"
-            android:textSize="20sp"
+            android:text="@string/title"
+            android:textSize="30sp"
             android:padding="10dp"
             android:textColor="@color/black"
             android:textStyle="bold"
@@ -22,18 +22,33 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.0"
             android:fontFamily="sans-serif-black"/>
-
-    <TextView
-            android:id="@+id/title_dec"
+    <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/ed_Name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/title_name"
-            android:textSize="16sp"
+            android:hint="@string/full_name_hint"
+            android:inputType="text"
+            android:textSize="20sp"
             android:padding="10dp"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/title_Name"
-            android:fontFamily="sans-serif-black"/>
+            app:layout_constraintTop_toTopOf="parent"/>
+    <Button
+            android:id="@+id/submit"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:background="@color/teal_700"
+            app:layout_constraintTop_toBottomOf="@+id/ed_Name"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
 
+    </Button>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

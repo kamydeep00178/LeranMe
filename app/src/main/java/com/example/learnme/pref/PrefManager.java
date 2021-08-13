@@ -1,8 +1,9 @@
-package com.example.learnme;
+package com.example.learnme.pref;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
+/* Shared Perf for one time show welcome screen */
 public class PrefManager {
 
     SharedPreferences pref;

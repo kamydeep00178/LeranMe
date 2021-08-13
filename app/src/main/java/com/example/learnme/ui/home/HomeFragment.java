@@ -1,6 +1,9 @@
 package com.example.learnme.ui.home;
 
+import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,135 +11,94 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import android.widget.Toast;
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
-import com.example.learnme.CustomAdapter;
+
+import com.example.learnme.ui.NewsDetailActivity;
 import com.example.learnme.R;
 import com.example.learnme.databinding.FragmentHomeBinding;
-import com.example.learnme.ui.DataModel;
-import com.google.android.material.snackbar.Snackbar;
+import com.example.learnme.database.DataModel;
+
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import java.io.IOException;
+
 import java.io.InputStream;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 
+/* show the Latest News **/
 public class HomeFragment extends Fragment {
-
- //   private HomeViewModel homeViewModel;
+    //View Binding
     private FragmentHomeBinding binding;
 
     ArrayList<DataModel> dataModels;
+
+    //Show the item list
     ListView listView;
-    private static CustomAdapter adapter;
+
+    //Custom Adapter for items
+    private static NewsFeedCustomAdapter adapter;
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-       /* homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);*/
 
+
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+
+        StrictMode.setThreadPolicy(policy);
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textHome;
-       /* homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
-*/
 
 
-        listView=(ListView)root.findViewById(R.id.list);
 
-        dataModels= new ArrayList<>();
+        listView = root.findViewById(R.id.list);
 
-        dataModels.add(new DataModel("Apple Pie", "Android 1.0", "1","September 23, 2008"));
-        dataModels.add(new DataModel("Banana Bread", "Android 1.1", "2","February 9, 2009"));
-        dataModels.add(new DataModel("Cupcake", "Android 1.5", "3","April 27, 2009"));
-        dataModels.add(new DataModel("Donut","Android 1.6","4","September 15, 2009"));
-        dataModels.add(new DataModel("Eclair", "Android 2.0", "5","October 26, 2009"));
-        dataModels.add(new DataModel("Froyo", "Android 2.2", "8","May 20, 2010"));
-        dataModels.add(new DataModel("Gingerbread", "Android 2.3", "9","December 6, 2010"));
-        dataModels.add(new DataModel("Honeycomb","Android 3.0","11","February 22, 2011"));
-        dataModels.add(new DataModel("Ice Cream Sandwich", "Android 4.0", "14","October 18, 2011"));
-        dataModels.add(new DataModel("Jelly Bean", "Android 4.2", "16","July 9, 2012"));
-        dataModels.add(new DataModel("Kitkat", "Android 4.4", "19","October 31, 2013"));
-        dataModels.add(new DataModel("Lollipop","Android 5.0","21","November 12, 2014"));
-        dataModels.add(new DataModel("Marshmallow", "Android 6.0", "23","October 5, 2015"));
+        dataModels = new ArrayList<>();
 
-        adapter= new CustomAdapter(getActivity().getApplicationContext(),dataModels);
 
-        listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                DataModel dataModel= dataModels.get(position);
 
-                Snackbar.make(view, dataModel.getName()+"\n"+dataModel.getType()+" API: "+dataModel.getVersion_number(), Snackbar.LENGTH_LONG)
-                        .setAction("No action", null).show();
+
+                DataModel dataModel = dataModels.get(position);
+
+                Intent intent = new Intent(getContext(), NewsDetailActivity.class);
+                intent.putExtra("title",dataModel.getTitle());
+                intent.putExtra("desc",dataModel.getDescription());
+                intent.putExtra("date",dataModel.getPubDate());
+                intent.putExtra("link",dataModel.getLink());
+
+                startActivity(intent);
+                Toast.makeText(getContext(),dataModel.getTitle(),Toast.LENGTH_SHORT).show();
+
+
             }
         });
 
-        try {
-            URL url = new URL("http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml");
 
-
-            InputStream is = getActivity().getAssets().open("example.xml");
-            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-
-          //  Document doc = dBuilder.parse(new InputSource(url.openStream()));
-
-            Document doc = dBuilder.parse(is);
-
-            Element element=doc.getDocumentElement();
-            element.normalize();
-
-            NodeList nList1 = doc.getElementsByTagName("item");
-            Node node1 = nList1.item(0);
-            Element element3 = (Element) node1;
-
-            Log.e("TAG", "onCreateView: nList1"+element3 );
-            NodeList nList = doc.getElementsByTagName("item");
-
-            for (int i=0; i<nList.getLength(); i++) {
-
-                Node node = nList.item(i);
-                if (node.getNodeType() == Node.ELEMENT_NODE) {
-                    Element element2 = (Element) node;
-                    Log.e("TAG", "onCreateView: "+getValue("pubDate", element2) );
-                /*    tv1.setText(tv1.getText()+"\nName : " + getValue("name", element2)+"\n");
-                    tv1.setText(tv1.getText()+"Salary : " + getValue("salary", element2)+"\n");
-                    tv1.setText(tv1.getText()+"-----------------------");*/
-                }
-            }//end of for loop
-        } catch (IOException | SAXException | ParserConfigurationException e) {
-            e.printStackTrace();
-        }
-
+        new GetDataAsyncTask("http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml").execute();
 
         return root;
     }
 
     private static String getValue(String tag, Element element) {
         NodeList nodeList = element.getElementsByTagName(tag).item(0).getChildNodes();
-        Node node = (Node) nodeList.item(0);
-
-        return node.getNodeValue();
+        Node node = nodeList.item(0);
+        return node.getTextContent();
     }
 
     @Override
@@ -145,5 +107,82 @@ public class HomeFragment extends Fragment {
         binding = null;
     }
 
+    public void callBackData(NodeList result) {
+        for (int i = 0; i < result.getLength(); i++) {
+            Node node = result.item(i);
+            if (node.getNodeType() == Node.ELEMENT_NODE) {
+                Element element2 = (Element) node;
+                Log.e("TAG", "description: " + getValue("description", element2));
+                Log.e("TAG", "title: " + getValue("title", element2));
+                Log.e("TAG", "pubDate: " + getValue("link", element2));
+
+                dataModels.add(
+                        new DataModel(getValue("title", element2),
+                        getValue("description", element2),
+                        getValue("pubDate", element2),
+                        getValue("link", element2))
+                );
+            }
+        }
+
+        adapter = new NewsFeedCustomAdapter(getActivity().getApplicationContext(), dataModels);
+
+        listView.setAdapter(adapter);
+    }
+
+    //HTTP Calling and Get The Latest News and this operation is done on background thread
+    public class GetDataAsyncTask extends AsyncTask<String[], Void, NodeList> {
+
+        private final String url;
+
+        public GetDataAsyncTask(String url) {
+            this.url = url;
+        }
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+
+        }
+
+        @Override
+        protected NodeList doInBackground(String[]... params) {
+            try {
+                URL url1 = new URL(this.url);
+                HttpURLConnection connection = (HttpURLConnection) url1.openConnection();
+                connection.setReadTimeout(10000);
+                connection.setConnectTimeout(15000);
+                connection.setRequestMethod("GET");
+                connection.setDoInput(true);
+                connection.connect();
+                InputStream stream = connection.getInputStream();
+
+                DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+                DocumentBuilder db = dbf.newDocumentBuilder();
+                Document doc = db.parse(new InputSource(url1.openStream()));
+                doc.getDocumentElement().normalize();
+                NodeList nList = doc.getElementsByTagName("item");
+                stream.close();
+
+                return nList;
+
+            } catch (Exception e) {
+                e.printStackTrace();
+                Log.e("AsyncTask", "exception");
+                return null;
+            }
+        }
+
+
+        @Override
+        protected void onPostExecute(NodeList result) {
+            //call back data to main thread
+            callBackData(result);
+
+
+        }
+    }
+
 
 }
+
