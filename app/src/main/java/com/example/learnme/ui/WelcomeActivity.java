@@ -72,8 +72,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
         btnSkip.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v1) {
-
+            public void onClick(View v3) {
                 launchUserDetail();
             }
         });
